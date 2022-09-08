@@ -1,0 +1,49 @@
+{
+  "product": "go-msi",
+  "company": "mh-cbon",
+  "license": "LICENSE",
+  "upgrade-code": "7B2378D2-82BA-4800-A785-5D71C8628088",
+  "files": {
+    "guid": "327AF500-770A-4970-9286-030FDD83AFCE",
+    "items": [
+      "go_winservice.exe",
+	  "exefile/"
+	  
+    ]
+  },
+  "directories": [
+    "templates"
+  ],
+  "env": {
+    "guid": "257FCC15-BB38-48FE-946E-C934329B7D2A",
+    "vars": [
+      {
+        "name": "PATH",
+        "value": "[INSTALLDIR]",
+        "permanent": "no",
+        "system": "no",
+        "action": "set",
+        "part": "last"
+      }
+    ]
+  },
+  "shortcuts": {
+    "guid": "8F6B8A1E-E68C-4C78-A662-1339ED45554A",
+    "items": [
+      {
+        "name": "go-msi",
+        "description": "Easy msi pakage for Go",
+        "target": "[INSTALLDIR]\\go_winservice.exe",
+        "wdir": "INSTALLDIR",
+        "arguments": "",
+        "icon": ""
+      }
+    ]
+  },
+  "choco": {
+    "description": "Easy way to generate msi package for a Go project",
+    "project-url": "https://github.com/mh-cbon/go-msi",
+    "tags": "generate go msi nuget",
+    "license-url": "https://github.com/mh-cbon/go-msi/blob/master/LICENSE"
+  }
+}

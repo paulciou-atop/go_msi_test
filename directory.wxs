@@ -1,0 +1,54 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Wix xmlns="http://schemas.microsoft.com/wix/2006/wi">
+    <Fragment>
+        <DirectoryRef Id="TARGETDIR">
+            <Directory Id="dirEB9DC5D7B3CFEF0111396D48B3EC46BC" Name="exefile">
+                <Component Id="cmpB041C72482D773256E7D665C098E7687" Guid="{9AA3A298-4B41-4DBA-B7B2-EC8BFB54B2C0}">
+                    <File Id="fil64001248C8873C62917944C1BC592100" KeyPath="yes" Source="SourceDir\atopudpscan.exe" />
+                </Component>
+                <Component Id="cmp6F627239AE830F559B797AF7D97E87F5" Guid="{65DB44AE-2049-47BF-8C34-6B61B7D0192C}">
+                    <File Id="filB78A123E61A7718D1A4C08EBECC76D26" KeyPath="yes" Source="SourceDir\config.exe" />
+                </Component>
+                <Component Id="cmp270C01165E2ED1CB4A6FA5FF499723DE" Guid="{E47A19CE-A1C4-47C8-9470-022ACBDAA4A4}">
+                    <File Id="fil91B7B1991FC657E25599BCB9EA286B18" KeyPath="yes" Source="SourceDir\dummyconfiger.exe" />
+                </Component>
+                <Component Id="cmpC74C3A72EF1AAF70478EAB9B999C1363" Guid="{3DA70D42-3E1D-4163-8CD5-16B31CF2B358}">
+                    <File Id="filDF398DE93B4D7ED87185FB46E1155A52" KeyPath="yes" Source="SourceDir\health.exe" />
+                </Component>
+                <Component Id="cmpAA878362AA2C0824E835086292B178C2" Guid="{46AF6D56-7E82-4909-AF17-1E89CDA0CB6E}">
+                    <File Id="filCB21F7C60E22A91682A11D769B619210" KeyPath="yes" Source="SourceDir\inventory.exe" />
+                </Component>
+                <Component Id="cmp6121FF616AAB202358A0FD6B026315FC" Guid="{D84B7201-9C57-4DE0-B77F-1BCA68B8342C}">
+                    <File Id="filCB726A1D7E2B10D6C36F3238ABD936B3" KeyPath="yes" Source="SourceDir\logging.exe" />
+                </Component>
+                <Component Id="cmp9E0C146A692AE4369E1B292731BC3AD0" Guid="{E401CF6E-E794-4FB1-9876-F9CB209C7A11}">
+                    <File Id="filF317D9F347F6048FFB37D4BBAA6D6CC7" KeyPath="yes" Source="SourceDir\messaging.exe" />
+                </Component>
+                <Component Id="cmp63ACCF195931746EBF61C83F4F76D018" Guid="{EB489604-3B1C-4081-934D-94F23307A131}">
+                    <File Id="filDCCE1F43AF802B9392C4F2E601B69468" KeyPath="yes" Source="SourceDir\nmsctl.exe" />
+                </Component>
+                <Component Id="cmp01710EFA1C07D88DC14861CCFD004442" Guid="{FA71E5B1-1EDF-4285-A178-B291C1F570C5}">
+                    <File Id="fil8C43D2AFEA8512F5F87F4F7537B2C72A" KeyPath="yes" Source="SourceDir\scanservice.exe" />
+                </Component>
+                <Component Id="cmp6E37CF98BABC8343E8BF8DB424B0DED4" Guid="{E9361245-5370-4E70-BD40-8FDEB2018820}">
+                    <File Id="filF6A74B9C74637C4F96AB2D8D568916D2" KeyPath="yes" Source="SourceDir\security.exe" />
+                </Component>
+                <Component Id="cmpEDCAC8546CC7ECCFBD67C078DF1E3076" Guid="{C278189F-3A2D-440C-A5BC-1E9EB95EC8D1}">
+                    <File Id="filBAFDCAA9B55C6B0923AF3DB0967960AE" KeyPath="yes" Source="SourceDir\serviceswatcher.exe" />
+                </Component>
+                <Component Id="cmpB1590D4336D13A1FCDD0814184A5996C" Guid="{E21945B8-D2D1-4C19-8A7E-A4536ECA4521}">
+                    <File Id="fil22208269DA26F8FBCC88C04430C33C9B" KeyPath="yes" Source="SourceDir\snmpconfig.exe" />
+                </Component>
+                <Component Id="cmp88C2B030AEE4A3730C8A6238CBB72D40" Guid="{52A43E3D-8298-455B-ADC4-D4369B513868}">
+                    <File Id="fil4017FE4482F3612A584CD319C20F7C58" KeyPath="yes" Source="SourceDir\snmpscan.exe" />
+                </Component>
+                <Component Id="cmp7D7C123BF0E078DB51410F68D71386C9" Guid="{B27ABE86-7498-4393-9F3B-089704413ECB}">
+                    <File Id="fil86D66658ACA933022EC36F8CAEE7D7A8" KeyPath="yes" Source="SourceDir\token.exe" />
+                </Component>
+                <Component Id="cmp78958F10CDF8C01FAC643A2D2BD85DE8" Guid="{EEBF3A26-7872-49DD-9337-51E9F58B02D0}">
+                    <File Id="filB56298978C15FB898FAEF19D35F5F352" KeyPath="yes" Source="SourceDir\usermgmt.exe" />
+                </Component>
+            </Directory>
+        </DirectoryRef>
+    </Fragment>
+</Wix>
